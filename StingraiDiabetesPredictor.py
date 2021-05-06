@@ -31,7 +31,7 @@ st.markdown(
 
 
 #Load Logistic Regression Model and define variable
-pickle_in = open('final_logreg_model.pk1','rb') #Load Logistic Regression model
+pickle_in = open('Final_logreg_model.pk1','rb') #Load Logistic Regression model
 rf_Model = pickle.load(pickle_in)
 
 
