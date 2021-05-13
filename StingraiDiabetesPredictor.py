@@ -65,7 +65,7 @@ def main():
     result = ""
     safe_html="""
       <div style="background-color:#3ff454;padding:10px >
-       <h2 style="color:white;text-align:center;">You're healthy and not at risk of developing diabetes.* This is not medical advice, please consult with a medical professional for advice.</h2>
+       <h2 style="color:white;text-align:center;">You're healthy and not at risk of developing diabetes* <br>This is not medical advice, please consult with a medical professional.</h2>
        </div>
     """
     danger_html="""
